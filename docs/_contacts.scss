@@ -1,0 +1,41 @@
+@import 'variables';
+
+.contacts {
+    padding: 20px;
+    background-color: #b4b4b6;
+
+    &__title {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__cases {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    &__case {
+        width: 300px;
+        height: 300px;
+        background: white;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+
+        &-name {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        &-text {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    }
+}

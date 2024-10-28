@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #3498db;
+  color: white;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.header__nav a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.header__nav img {
+  width: 100px;
+}
+.header__title {
+  text-align: center;
+  background-image: url(./photo/homi.png);
+  height: 700px;
+}
+.header__title-name {
+  font-size: 50px;
+  padding-top: 100px;
+}
+.header__title-signature {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.about {
+  padding: 20px;
+}
+.about__title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 -10px;
+}
+.about__paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 300px;
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.about__paragraph_number {
+  font-weight: bold;
+  font-size: 50px;
+  color: #809dec;
+  margin-bottom: 10px;
+}
+.about__paragraph_sign {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.about__paragraph_text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contacts {
+  padding: 20px;
+  background-color: #b4b4b6;
+}
+.contacts__title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contacts__cases {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contacts__case {
+  width: 300px;
+  height: 300px;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.contacts__case-name {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.contacts__case-text {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.footer__logo {
+  width: 100px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+/*# sourceMappingURL=style.css.map */

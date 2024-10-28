@@ -1,0 +1,40 @@
+@import 'variables';
+
+.header {
+    background-color: $primary-color;
+    color: white;
+
+    &__nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+
+        a {
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        img {
+            width: 100px;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        background-image: url(./photo/homi.png);
+        height: 700px;
+
+        &-name {
+            font-size: 50px;
+            padding-top: 100px;
+        }
+
+        &-signature {
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+}
